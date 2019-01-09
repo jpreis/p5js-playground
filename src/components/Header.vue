@@ -19,9 +19,7 @@
           For performance reasons, all but the first sketch will be set to <code>noLoop()</code> after a short time. Click on a sketch to toggle it active/inactive.
         </p>
         <p>
-          If you want to play around with a sketch, I recommend using the <a
-            href="https://editor.p5js.org/"
-          >p5.js Online Editor</a>. Simply copy and paste the source code and replace the last line <code>export default seed;</code> with <code>new&nbsp;p5(seed);</code> and you're good to go!
+          If you want to play around with a sketch, I recommend using the <a href="https://editor.p5js.org/">p5.js Online Editor</a>. Simply copy and paste the source code and replace the last line <code>export default sketch;</code> with <code>new&nbsp;p5(seed);</code> and you're good to go!
         </p>
       </div>
     </div>

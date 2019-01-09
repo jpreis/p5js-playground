@@ -52,6 +52,7 @@ import SketchControl from "./components/SketchControl";
 
 import softbody from "./sketches/softbody";
 import diamonds from "./sketches/diamonds";
+import arcs from "./sketches/arcs";
 
 export default {
   name: "app",
@@ -66,7 +67,11 @@ export default {
   },
   data() {
     return {
-      sketches: [{ ...diamonds, active: true }, { ...softbody, active: true }]
+      sketches: [
+        { ...diamonds, active: true },
+        { ...softbody, active: true },
+        { ...arcs, active: true }
+      ]
     };
   },
   methods: {
